@@ -1,0 +1,17 @@
+
+
+.header{
+    position:absolute;
+
+}
+.header-img{
+    width: 1150px;
+    height: 240px;
+    object-fit: cover;
+    object-position: top;
+    background-position-y: 100px;
+    border-radius: 30px;
+    padding-left:160px;
+    padding-right:160px;
+    margin-top: 10px;
+}
