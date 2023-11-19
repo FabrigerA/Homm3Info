@@ -24,7 +24,7 @@ function Body({setcurrentImage, currentImage}){
           
         <div class="body">
 
-            <button onClick={changeImage} class="upgrade-button">upgrade</button>
+            <button onClick={changeImage} class="upgrade-button"></button>
             <img src={bodyImage} class="body-image" id="image"></img>
                 
         </div>
