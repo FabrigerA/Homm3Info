@@ -1,5 +1,6 @@
 
 .web-container{
-    background-color: darkgray;
+    background-image: "./assets/heroes-background.jpg";
+    background-size: contain;
 }
 
