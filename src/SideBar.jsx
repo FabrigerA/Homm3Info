@@ -1,8 +1,14 @@
 
-import DungeonUpgrade from './assets/dungeon-fort-upgrade.gif'
 import Dungeon from './assets/dungeon-fort.gif'
-import CastleUpgrade from './assets/castle-fort-upgrade.png'
 import Castle from './assets/castle-fort.gif'
+import Conflux from './assets/conflux-fort.png'
+import Cove from './assets/cove-fort.png'
+import Fortress from './assets/fortress-fort.png'
+import Tower from './assets/tower-fort.png'
+import Stronghold from './assets/stronghold-fort.png'
+import Rampart from './assets/rampart-fort.png'
+import Necropolis from './assets/necropolis-fort.png'
+import Inferno from './assets/inferno-fort.png'
 import {useState} from 'react'
 import SideBarButton from './SideBarButton'
 import Body from './Body'
@@ -18,9 +24,57 @@ function SideBar(){
         
     };
 
+    const rampart = (Image) => {
+        setCurrentImage(Image)
+        console.log("rampart")
+        
+    };
+
+    const tower = (Image) => {
+        setCurrentImage(Image)
+        console.log("tower")
+        
+    };
+
+    const inferno = (Image) => {
+        setCurrentImage(Image)
+        console.log("inferno")
+        
+    };
+
+    const necropolis = (Image) => {
+        setCurrentImage(Image)
+        console.log("necropolis")
+        
+    };
+
     const dungeon = (Image) => {
         setCurrentImage(Image)
         console.log("dungeon")
+        
+    };
+
+    const stronghold = (Image) => {
+        setCurrentImage(Image)
+        console.log("stronghold")
+        
+    };
+
+    const fortress = (Image) => {
+        setCurrentImage(Image)
+        console.log("fortress")
+        
+    };
+
+    const conflux = (Image) => {
+        setCurrentImage(Image)
+        console.log("conflux")
+        
+    };
+
+    const cove = (Image) => {
+        setCurrentImage(Image)
+        console.log("cove")
         
     };
 
@@ -30,23 +84,23 @@ function SideBar(){
 
                 <SideBarButton onClick={() => castle(Castle)} class="castle-button sidebar-button"/>
             
-                <SideBarButton class="rampart-button sidebar-button"/>
+                <SideBarButton onClick={() => rampart(Rampart)} class="rampart-button sidebar-button"/>
 
-                <SideBarButton class="sidebar-button tower-button"/>
+                <SideBarButton onClick={() => tower(Tower)} class="sidebar-button tower-button"/>
             
-                <SideBarButton class="sidebar-button inferno-button"/>
+                <SideBarButton onClick={() => inferno(Inferno)} class="sidebar-button inferno-button"/>
             
-                <SideBarButton class="sidebar-button necropolis-button"/>
+                <SideBarButton onClick={() => necropolis(Necropolis)} class="sidebar-button necropolis-button"/>
             
                 <SideBarButton onClick={() => dungeon(Dungeon)} class="sidebar-button dungeon-button"/>
             
-                <SideBarButton class="sidebar-button stronghold-button"/>
+                <SideBarButton onClick={() => stronghold(Stronghold)} class="sidebar-button stronghold-button"/>
     
-                <SideBarButton class="sidebar-button fortress-button"/>
+                <SideBarButton onClick={() => fortress(Fortress)} class="sidebar-button fortress-button"/>
             
-                <SideBarButton class="sidebar-button conflux-button"/>
+                <SideBarButton onClick={() => conflux(Conflux)} class="sidebar-button conflux-button"/>
             
-                <SideBarButton class="sidebar-button cove-button"/>
+                <SideBarButton onClick={() => cove(Cove)} class="sidebar-button cove-button"/>
             
         </div>
 
