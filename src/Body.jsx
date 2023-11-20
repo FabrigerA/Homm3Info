@@ -1,5 +1,4 @@
-import './styles/Body.css'
-import { useState } from 'react'
+
 import DungeonUpgrade from './assets/dungeon-fort-upgrade.gif'
 import Dungeon from './assets/dungeon-fort.gif'
 import CastleUpgrade from './assets/castle-fort-upgrade.png'
