@@ -3,7 +3,9 @@
 .web-container{
     background-image: url(../assets/heroes-background.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
+
+    width: 1640px;
 }
 
 
