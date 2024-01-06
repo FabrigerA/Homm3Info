@@ -9,6 +9,7 @@ import Stronghold from './assets/stronghold-fort.png'
 import Rampart from './assets/rampart-fort.png'
 import Necropolis from './assets/necropolis-fort.png'
 import Inferno from './assets/inferno-fort.png'
+import Factory from './assets/factory-fort.png'
 import {useState} from 'react'
 import SideBarButton from './SideBarButton'
 import Body from './Body'
@@ -78,6 +79,12 @@ function SideBar(){
         
     };
 
+    const factory = (Image) => {
+        setCurrentImage(Image)
+        console.log("factory")
+        
+    };
+
     return(
         <>
                 <div class="sidebar">
@@ -101,6 +108,8 @@ function SideBar(){
                 <SideBarButton onClick={() => conflux(Conflux)} class="sidebar-button conflux-button"/>
             
                 <SideBarButton onClick={() => cove(Cove)} class="sidebar-button cove-button"/>
+
+                <SideBarButton onClick={() => factory(Factory)} class="sidebar-button factory-button"/>
             
         </div>
 

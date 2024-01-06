@@ -19,6 +19,10 @@ import Cove from './assets/cove-fort.png'
 import CoveUpgrade from './assets/cove-fort-upgrade.png'
 import Conflux from './assets/conflux-fort.png'
 import ConfluxUpgrade from './assets/conflux-fort-upgrade.png'
+import Factory from './assets/factory-fort.png'
+import FactoryUpgrade from './assets/factory-fort-upgrade.png'
+
+
 
 
 function Body({setcurrentImage, currentImage}){
@@ -40,6 +44,8 @@ function Body({setcurrentImage, currentImage}){
             case Fortress: setcurrentImage(FortressUpgrade); break;
             case Conflux: setcurrentImage(ConfluxUpgrade); break;
             case Cove: setcurrentImage(CoveUpgrade); break;
+            case Factory: setcurrentImage(FactoryUpgrade); break;
+            
 
         }
 
