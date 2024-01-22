@@ -1,7 +1,8 @@
 .body{
-    height: 800px;
+    height: 900px;
     padding-left: 220px;
     padding-top: 250px;
+    margin: 0px;
 }
 
 .upgrade-button{
